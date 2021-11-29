@@ -1,0 +1,129 @@
+@media screen and (max-width: 1280px) { div.contentblock {width: 1200px;} }
+.solid{
+    border: 1px black solid;
+    width: 300px;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.Well{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    position: absolute;
+    top:40px;
+    left: 30px;
+}
+p{
+    font-size:medium;
+    position: absolute;
+    top:100px;
+    left: 55px;
+}
+h2{
+    position: absolute;
+    top:70px;
+    left: 60px;
+}
+#name{
+    position: absolute;
+    top: 210px;
+    left: 50px;
+    width: 190px;
+    height: 30px; 
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#password{
+    position: absolute;
+    top:300px;
+    left: 50px;
+    width: 190px;
+    height:30px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#id{
+    position: absolute;
+    top: 358px;
+    left: 50px;
+}
+#Name{
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#pass{
+    position: absolute;
+    top: 271px;
+    left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#rem{
+    position: absolute;
+    top: 362px;
+    left: 75px;
+    font-size: x-small;
+    font-family: 'Times New Roman', Times, serif;
+}
+  #log{
+    border-radius: 5px;
+      position: absolute;
+      top: 400px;
+      left: 50px;
+      width: 200px;
+      height: 30px;
+      background-color: black;
+      color: blanchedalmond;
+  }
+  .psw{
+    position: absolute;
+    top: 360px;
+    left: 180px;
+    font-size: small;
+  }
+  @media screen and (max-width: 200px) {
+    span.psw {
+       float: right;
+    }
+}
+.don{
+    position: absolute;
+    top: 460px;
+    left: 50px;
+   color: rgb(143, 142, 142);
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: small;
+}
+.registr{
+    position: absolute;
+    top: 458px;
+    left: 210px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+.registr a{
+color: black;
+text-decoration: none;
+}
+.psw a{
+    color: grey;
+    text-decoration: none;
+}
+ #img{
+     position: absolute;
+     width: 450px;
+     height: 350px;
+     top: 120px;
+     right: 555px;
+ }
+ #ch{
+     position: absolute;
+     top:345px;
+     left: 50px;
+ }
+ 
