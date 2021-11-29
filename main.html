@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+<body>
+    <div id='anim'></div>
+   <div class="ani">Loading...</div>
+
+    <script>
+        function Rotation(a){
+            $({deg: 0}).animate({deg: a}, {
+            duration: 3000,
+                step: function(b, c){
+                    $("#anim").css({
+                         transform: "rotate(" + b + "deg)"
+                    });
+                }
+            });
+        }
+        
+        Rotation(720);
+        </script>
+    <div class="solid">
+   <div class="Well">Welcome!</div> 
+   <h2>Sign up to</h2>
+   <p>Lorem ipsum is simply</p>
+   <div>
+    <form action="main.html">
+<label for="email" id="email">Email</label>
+<input type="email" id="em" name="em" placeholder="Enter your email">
+<label for="name" id="Name">User name</label> 
+<input type="text" id="name" name="name" placeholder="Enter your user name">
+<label for="password" id="pass">Password</label>
+<input type="password" id="password" name="Password" placeholder="Enter your password">
+<label for="Confirmpassword" id="conf">Confirm password</label>
+<input type="password" id="cnf" name="cnf" placeholder="Confirm your password">
+<input type="submit"  id="log" value="Register">
+
+</form>
+   </div>
+   </div>
+   <div class="don">Don't have an account?</div>
+   <div class="registr"><a href="main.html">Register</a>
+  </div>
+   <img src="https://primelens.ru/800/600/https/pbs.twimg.com/media/C9IsS1QXsAYJV-H.jpg"
+   id="img" alt="img">
+</body>
+</html>

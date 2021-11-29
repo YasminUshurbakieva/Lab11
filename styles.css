@@ -1,0 +1,161 @@
+@media screen and (max-width: 1280px) { div.contentblock {width: 1200px;} } 
+.ani{
+    position: absolute;
+    top: 440px;
+    left: 500px;
+    color: rgb(252, 248, 248);
+    font-family: 'Times New Roman', Times, serif;
+}
+#anim {
+    position:absolute;
+    top:400px;
+    right: 790px;
+    width: 100px;
+    height: 100px;
+    background: rgb(10, 10, 10);
+    text-align: center;
+}
+#text{
+    text-align: center;
+    font: bold;
+}
+.solid{
+    border: 1px black solid;
+    width: 300px;
+    height: 550px;
+    border-radius: 5px;
+}
+.Well{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    position: absolute;
+    top:40px;
+    left: 30px;
+}
+p{
+    font-size:medium;
+    position: absolute;
+    top:90px;
+    left: 55px;
+}
+h2{
+    position: absolute;
+    top:60px;
+    left: 60px;
+}
+#name{
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    width: 190px;
+    height: 30px; 
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#password{
+    position: absolute;
+    top:330px;
+    left: 50px;
+    width: 190px;
+    height:30px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#id{
+    position: absolute;
+    top: 358px;
+    left: 50px;
+}
+#Name{
+    position: absolute;
+    top: 210px;
+    left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#pass{
+    position: absolute;
+    top: 295px;
+    left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#rem{
+    position: absolute;
+    top: 362px;
+    left: 75px;
+    font-size: x-small;
+    font-family: 'Times New Roman', Times, serif;
+}
+  #log{
+    border-radius: 5px;
+      position: absolute;
+      top: 480px;
+      left: 50px;
+      width: 200px;
+      height: 30px;
+      background-color: black;
+      color: blanchedalmond;
+  }
+  
+.don{
+    position: absolute;
+    top: 520px;
+    left: 50px;
+   color: rgb(143, 142, 142);
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: small;
+}
+.registr{
+    position: absolute;
+    top: 520px;
+    left: 210px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+.registr a{
+color: black;
+text-decoration: none;
+}
+
+ #img{
+     position: absolute;
+     width: 400px;
+     height: 300px;
+     top: 120px;
+     right: 355px;
+ }
+ #em{
+    position: absolute;
+    top: 170px;
+    left: 50px;
+    width: 190px;
+    height:30px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+ }
+ #email{
+    position: absolute;
+    top: 140px;
+    left: 50px;
+ }
+ #cnf{
+    position: absolute;
+    top: 420px;
+    left: 50px;
+    width: 190px;
+    height:30px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+ }
+ #conf{
+    position: absolute;
+    top: 390px;
+    left: 50px;
+ }
